@@ -5,7 +5,7 @@
 14212 -> нет
 12821 -> да
 23432 -> да*/
-/*
+
 Console.Write("Введите пятизначное число: ");
 string number = Console.ReadLine();
 if (number.Length == 5)
@@ -15,12 +15,12 @@ if (number.Length == 5)
 else Console.WriteLine($"Число не пятизначное.");
 void Metod(string number)
 {
-    if (number[0] == number[4] || number[1] == number[3])
+    if (number[0] == number[4] && number[1] == number[3])
     {
         Console.WriteLine($"{number} - палиндром.");
     }
     else Console.WriteLine($"{number} - не палиндром.");
-}*/
+}
 
 /*Задача 21
 Напишите программу, которая принимает на вход
@@ -62,7 +62,7 @@ double GetDistance(int X1, int Y1, int Z1, int X2, int Y2, int Z2)
  таблицу кубов чисел от 1 до N.
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125*/
-Console.Write("Введите число N:");
+/*Console.Write("Введите число N:");
 int N = int.Parse(Console.ReadLine());
 Metod(N);
 void Metod (int N){
@@ -70,4 +70,4 @@ void Metod (int N){
     {
         Console.Write($"{Math.Pow(i, 3)} ");
     }
-}
+}*/
